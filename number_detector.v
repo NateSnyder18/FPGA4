@@ -2,7 +2,7 @@ module number_detector(num, LED);
     input [4:0] num;
     output reg [4:0] LED;
    
-    always @ (num)
+    always @ (*)
     begin
    
         case (num)
